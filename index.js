@@ -1,5 +1,5 @@
 
-var client = mqtt.connect("wss://broker.emqx.io:8083/mqtt");
+var client = mqtt.connect("");
 var prueb = document.getElementById("pruebita01");
 var voltaje = document.getElementById("voltaje");
 var presion = document.getElementById("presion");
